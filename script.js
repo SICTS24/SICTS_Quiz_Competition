@@ -13,7 +13,7 @@ document.getElementById('apiButton').addEventListener('click', function() {
   text.innerHTML = 'Your school pressed the button';
 
   function fetchData() {
-    fetch('https://server-drab-beta-67.vercel.app/data')
+    fetch('https://x9820t27-3000.asse.devtunnels.ms/data')
       .then(response => response.json())
       .then(data => {
         let results = document.getElementById('results');
@@ -58,7 +58,7 @@ document.getElementById('apiButton').addEventListener('click', function() {
 
   const schoolName = document.getElementById('schoolName').value;
 
-  fetch('https://server-drab-beta-67.vercel.app/', {
+  fetch('https://x9820t27-3000.asse.devtunnels.ms/', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
