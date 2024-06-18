@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <form id="schoolForm">
+    <label for="schoolName">Enter School Name:</label><br>
+    <input type="text" id="schoolName" name="schoolName"><br>
+    <input type="submit" value="Submit">
+  </form>
+  <div id="contDiv" style="display: none; width: 100%; ">
+    <div id="response" style="text-align: center; font-size: larger;"></div>
+    <button id="apiButton" style="display: none; width: 100%; height: 100px; line-height: 75px; font-size: 50px;" type="button">Submit</button>
+    <div id="results"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
