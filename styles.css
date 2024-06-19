@@ -73,6 +73,6 @@ input[type="submit"]:hover, button:hover {
     padding: 10px;
   }
   #apiButton{
-    font-size: medium;
+    font-size: x-small;
   }
 }
