@@ -55,7 +55,7 @@ input[type="submit"]:hover, button:hover {
   margin-top: 20px;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  font-size: larger;
+  font-size: xx-large;
   text-align: center;
 }
 
@@ -75,7 +75,7 @@ input[type="submit"]:hover, button:hover {
     padding: 10px;
   }
   #apiButton{
-    font-size: large;
+    font-size: x-large;
     height: 50%;
   }
 }
