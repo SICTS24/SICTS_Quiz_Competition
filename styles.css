@@ -43,6 +43,7 @@ input[type="submit"]:hover, button:hover {
 }
 #apiButton{
   background-color: blue;
+  font-size: large;
 }
 
 /* New CSS for the 'exist' div */
@@ -74,5 +75,6 @@ input[type="submit"]:hover, button:hover {
   }
   #apiButton{
     font-size: x-small;
+
   }
 }
