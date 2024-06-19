@@ -67,6 +67,7 @@ input[type="submit"]:hover, button:hover {
   form, button {
     width: 100%;
     padding: 15px;
+    height: 50%;
   }
 
   #exist {
