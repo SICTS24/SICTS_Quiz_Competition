@@ -44,7 +44,7 @@ document.getElementById('apiButton').addEventListener('click', function() {
   }
 
   setTimeout(function() {
-    document.getElementById('apiButton').style.backgroundColor = 'green';
+    document.getElementById('apiButton').style.backgroundColor = 'blue';
   }, 8000);
 
   document.getElementById('apiButton').disabled = true;
