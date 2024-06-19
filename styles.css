@@ -41,6 +41,9 @@ input[type="submit"], button {
 input[type="submit"]:hover, button:hover {
   background-color: #45a049;
 }
+#apiButton{
+  background-color: blue;
+}
 
 /* New CSS for the 'exist' div */
 #exist {
