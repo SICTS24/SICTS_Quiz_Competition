@@ -24,11 +24,11 @@ document.getElementById('apiButton').addEventListener('click', function() {
           results.appendChild(el);
         }
         let t1 = '';
+        let counter = 1; // Initialize counter
         for (let key in data) {
           if (data.hasOwnProperty(key)) {
-            //el.innerHTML = el.innerHTML + `\nSchool: ${key}, Time: ${data[key]}`;
-            let t2 = t1.concat(`School: ${key}, Time: ${data[key]}<br>`);
-            t1 = t2;
+            t1 += `${counter}. School: ${key}, Time: ${data[key]}<br>`;
+            counter++; // Increment counter
           }
         }
         el.innerHTML = t1;
@@ -37,6 +37,7 @@ document.getElementById('apiButton').addEventListener('click', function() {
         console.error('Error:', error);
       });
   }
+  
 
   if (!intervalId) {
     intervalId = setInterval(fetchData, 500);
