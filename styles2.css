@@ -60,9 +60,9 @@ input[type="submit"]:hover, button:hover {
   text-align: left;
 }
 #background {
-  display: inline;
+  display: block;
   background-image: url(header.jpg);
-  background-size: 100%;
+  background-size: 100% 100%;
   width: 50%;
   height: 40%;
   background-repeat: no-repeat;
