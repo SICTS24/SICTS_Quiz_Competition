@@ -59,7 +59,19 @@ input[type="submit"]:hover, button:hover {
   font-size: xx-large;
   text-align: left;
 }
+#background {
+  display: inline;
+  background-image: url(header.jpg);
+  background-size: 100%;
+  width: 50%;
+  height: 40%;
+  background-repeat: no-repeat;
 
+  border: 1px solid rgba(255, 255, 255, 0.3); /* Optional: border to enhance frosted effect */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow for depth */
+  
+  border-radius: 5px
+}
 
 
 
