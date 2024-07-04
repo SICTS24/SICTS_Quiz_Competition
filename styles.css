@@ -62,7 +62,7 @@ input[type="submit"]:hover, button:hover {
 #background {
   /*display: grid;
   grid-template-columns: 60% 40%;*/
-
+  display: block;
   background-image: url("header.jpg");
 
   /*background-color: rgba(1, 8, 20, 0.436); /* Light blue with transparency */
@@ -76,6 +76,7 @@ input[type="submit"]:hover, button:hover {
   /*box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow for depth */
   
   border-radius: 5px;
+
   background-repeat: no-repeat;
   
 }
