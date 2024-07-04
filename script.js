@@ -10,7 +10,7 @@ document.getElementById('schoolForm').addEventListener('submit', function(event)
 document.getElementById('apiButton').addEventListener('click', function() {
   document.getElementById('apiButton').style.backgroundColor = 'red';
   var text = document.getElementById('response');
-  text.innerHTML = 'Your school pressed the button';
+  text.innerHTML = 'Your team pressed the button';
 
   function fetchData() {
     fetch('https://x9820t27-4000.asse.devtunnels.ms/data')
@@ -27,7 +27,7 @@ document.getElementById('apiButton').addEventListener('click', function() {
         let counter = 1; // Initialize counter
         for (let key in data) {
           if (data.hasOwnProperty(key)) {
-            t1 += `${counter}. School: ${key}, Time: ${data[key]}<br>`;
+            t1 += `${counter}. Team: ${key}, Time: ${data[key]}<br>`;
             counter++; // Increment counter
           }
         }
