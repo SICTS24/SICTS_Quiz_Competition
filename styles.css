@@ -60,8 +60,8 @@ input[type="submit"]:hover, button:hover {
   text-align: left;
 }
 #background {
-  display: grid;
-  grid-template-columns: 60% 40%;
+  /*display: grid;
+  grid-template-columns: 60% 40%;*/
   
   background-image: url("header.jpg");
 
