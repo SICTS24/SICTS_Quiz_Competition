@@ -60,8 +60,7 @@ input[type="submit"]:hover, button:hover {
   text-align: left;
 }
 #background {
-  display: grid;
-  grid-template-columns: 60% 40%;
+  display: flex;
   background-image: url(header.jpg);
   background-size: 100%;
   width: 50%;
@@ -111,7 +110,7 @@ input[type="submit"]:hover, button:hover {
   }
   #background{
     width: 100%;
-    grid-template-columns: 60% 40%;
+    
   }
   
 }
